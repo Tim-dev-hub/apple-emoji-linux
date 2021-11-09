@@ -237,6 +237,7 @@ annotation: warning
 1f9d9 1f3fd 200d 2640
 2139
 2694
+1f972
 
 annotation: ok
 # 'new' in that they now have emoji presentation
