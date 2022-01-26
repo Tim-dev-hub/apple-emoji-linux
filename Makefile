@@ -21,7 +21,7 @@ LDFLAGS = -lm `pkg-config --libs cairo`
 PNGQUANT = pngquant
 PYTHON = python3
 PNGQUANTFLAGS = --speed 1 --skip-if-larger --quality 85-95 --force
-BODY_DIMENSIONS = 136x128
+BODY_DIMENSIONS = 68x64
 IMOPS := -size $(BODY_DIMENSIONS) canvas:none -compose copy -gravity center
 
 PREFIX ?= $$HOME/.local
